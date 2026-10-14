@@ -19,7 +19,7 @@ if st.button("Start an analysis", type="primary"):
 CARDS = [
     ("Fake News: A Growing Threat",
      "Fake news videos and blogs have become a major issue, leading to the spread of misinformation, social unrest, "
-     "and a general erosion of trust in media sources. The rapid dissemination of misleading content has caused "
+     "and a general erosion of trust in media sources. The misleading content has caused "
      "confusion and harm to society, and it is crucial to have reliable tools to identify and counteract these threats."),
     ("Impact of Fake News",
      "The consequences of fake news are far-reaching, affecting public opinion, political stability, and even public "
