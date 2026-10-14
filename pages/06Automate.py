@@ -5,8 +5,7 @@ from module import config, llm, pipeline, state, ui
 ui.setup_page("Automate", "🤖")
 ui.page_header("NetShield Content Automation Analysis", "Runs the full AI check on every fetched video.")
 ui.callout(
-    "AI Verification Pipeline",
-    "This page performs the full AI analysis on the fetched videos, executing the core NetShield process:",
+    "AI Verification Pipeline: This page performs the full AI analysis on the fetched videos, executing the core NetShield process: ",
     ordered=True,
     items=[
         "<b>Transcription:</b> Converts video audio to raw text.",
