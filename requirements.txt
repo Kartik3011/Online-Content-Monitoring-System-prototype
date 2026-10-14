@@ -1,0 +1,10 @@
+streamlit>=1.39
+pandas>=2.2
+numpy>=1.26
+plotly>=5.22
+requests>=2.32
+beautifulsoup4>=4.12
+google-api-python-client>=2.130
+openai>=1.40
+groq>=0.9
+youtube-transcript-api>=0.6.2
