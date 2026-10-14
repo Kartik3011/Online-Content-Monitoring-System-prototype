@@ -6,12 +6,13 @@ ui.setup_page("Automate", "🤖")
 ui.page_header("NetShield Content Automation Analysis", "Runs the full AI check on every fetched video.")
 ui.callout(
     "AI Verification Pipeline",
+    "This page performs the full AI analysis on the fetched videos, executing the core NetShield process:",
     ordered=True,
     items=[
-        "<b>Content Extraction:</b> Uses Title and Description as the source text.",
+        "<b>Transcription:</b> Converts video audio to raw text.",
         "<b>Context Fetch:</b> Finds and scrapes related news articles.",
-        f"<b>Summarization:</b> Uses {config.FAST_MODEL} to create a summary of the news coverage.",
-        f"<b>Validation:</b> Uses {config.JUDGE_MODEL} to compare the claim and the news summary and assign a status.",
+        f"<b>Summarization:</b> Uses LLMs to create summaries of both video and news.",
+        f"<b>Validation:</b> Uses Meta/Llama 3 70B to compare summaries and assign a status.",
     ],
     footer="Final Output: A comprehensive report of Green (Accurate), Yellow (Inconclusive), or Red (Misinformation/Abuse).",
 )
